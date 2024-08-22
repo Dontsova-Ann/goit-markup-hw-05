@@ -546,7 +546,7 @@ gap: 24px;
 }
 .futer-form-label {
   font-weight:500;
-  font-size: 16px ;
+  font-size: 16px;
 letter-spacing: 0.02em;
 
 
@@ -593,7 +593,7 @@ justify-content: center;
 align-items: center;
 border: none;
 font-family: "Roboto", sans-serif;
-cursor: pointer
+cursor: pointer;
 }
 .futer-icon{
  fill: #fff;
@@ -618,6 +618,9 @@ margin-left: 16px;
   pointer-events: none;
    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
   
+}
+.futer-input::placeholder{
+  color :#ffffff;
 }
 .modal{
   padding: 72px 24px 24px 24px;
@@ -708,6 +711,10 @@ line-height: 1.17;
  margin-bottom: 16px;
 }
 .modal-input {
+  letter-spacing: 0.04em;
+  line-height: 2;
+  font-size: 12px; 
+  width: 264px;
   width: 100%;
   height: 40px;
   border-radius: 4px;
@@ -717,6 +724,7 @@ line-height: 1.17;
   background-color: transparent;
   outline: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 .modal-input:hover,
 .modal-input:focus{
