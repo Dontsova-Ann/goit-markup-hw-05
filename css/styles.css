@@ -392,13 +392,11 @@ align-items: center;
   overflow: hidden;
   position: relative;
  
-
 }
 .portfolio-text-images{
   transform: translateY(100%);
   position: absolute;
   top: 0;
-  
   color: #F4F4FD;
   background-color:#4D5AE5 ;
   width: 360px;
@@ -416,17 +414,12 @@ transition: transform 300ms linear;
   border: 1px solid #e7e9fc;
   border-top: none;
 }
-
-
-
 .title-portfolio-item {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  
   margin-bottom: 8px;
-
   color: #2e2f42;
 }
 .portfolio-text {
@@ -434,27 +427,23 @@ transition: transform 300ms linear;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  
-
   color: #434455;
 }
 /* #endregion section our portfolio */
 /* #region footer */
-.footer {
 
-  display: flex;
+.footer {
+display: flex;
   gap: 120px;
   background-color: #2e2f42;
   padding-top: 100px;
-  padding-bottom: 100px;
-  
+  padding-bottom: 100px; 
 }
+
 .footer-container {
  display:flex;
  align-items: baseline;
   flex-direction: row;
- 
-  margin: 0 141px;
   padding: 0 15px;
 }
 .container-logo{
@@ -534,22 +523,27 @@ background-color: #31d0aa;
 .icon-name{
  fill: #f4f4fd;
 }
-.futer-cont-input {
- 
-  display:flex;
-  align-items: center;
-  gap: 16px;
-}
-.form-futer {
-  
+/* Subscribe */
 
+.futer-cont-input {
+  
+  align-items: center;
+justify-content: space-between;
+  gap: 16px; 
+}
+.futer-Subscribe{
+  color: #fff;
+}
+  .form-futer {
+display: flex;
+align-items: baseline;
 }
 .futer-form-label {
   font-weight:500;
   font-size: 16px ;
 letter-spacing: 0.02em;
 color: #fff;
-margin-right: 16px;
+
 }
 
 .futer-input {
@@ -568,8 +562,12 @@ margin-right: 16px;
 letter-spacing: 0.04em;
 color: #fff;
 }
-
+/* button */
 .futer-submit{
+  font-weight: 500;
+  font-size: 16px ;
+  letter-spacing: 0.04em;
+  margin-left: 24px;
   background-color: #4d5ae5;
   border-radius: 4px;
 padding: 8px 24px;
@@ -578,13 +576,13 @@ height: 40px;
 color: #fff;
 text-align: center;
 display: flex;
-justify-content:;
+justify-content: center;
 align-items: center;
 border: none;
 }
 .futer-icon{
  fill: #fff;
-margin-left: 8px;
+margin-left: 16px;
 }
 
 /* #endregion footer */
