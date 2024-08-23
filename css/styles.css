@@ -813,7 +813,7 @@ color: #4d5ae5;
   margin-bottom: 24px;
 }
 .checkbox-icon{
-  fill: #F4F4FD;
+ fill:#F4F4FD;
 }
 .custom-checkbox {
   border-radius: 2px;
@@ -831,7 +831,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cu
 .checkbox:checked + .custom-label-user-checkbox > .custom-checkbox {
   border: none;
 background-color: #404bbf;
-
+fill: #F4F4FD ;
 }
 /* button */
 .modal-submit{
